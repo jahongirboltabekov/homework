@@ -1,0 +1,82 @@
+.banner_div{
+    background-color: black;
+    padding: 102px 0 142px 0;
+
+    .wrap{
+        display: flex;
+        align-items: center;
+        gap: 184px;
+
+        .banner_text{
+            display: flex;
+            flex-direction: column;
+            gap: 47px;
+
+            h1{
+                color: white;
+                font-family: 'Poppins';
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 80px;
+            }
+            
+            p{
+                color: #8B8E99;
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+            }
+
+            .search{
+                padding: 10px;
+                background-color: white;
+                border-radius: 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .icon{
+                    color: #3858D6;
+                    font-size: 25px;
+                }
+
+                input{
+                    padding: 5px;
+                    border: none;
+                    outline: none;
+                    border: 2px solid white;
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+
+                }
+
+                input:focus{        
+                    border: 2px solid #3858D6;
+                    border-radius: 10px;
+                    transition: 0.2s;
+                }
+
+                button{
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    border:1px solid #3858D6;
+                    background-color: #3858D6;
+                    color: white;
+                    font-family: 'Poppins';
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 23px;
+                }
+
+                button:hover{
+                    background-color: white;
+                    color: #3858D6;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}

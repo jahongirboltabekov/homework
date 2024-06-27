@@ -1,0 +1,79 @@
+.text{
+    p{
+        font-family: 'Inter';
+        font-weight: 500;
+        color: #3858D6;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    h3{
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43px;
+        margin-top: 5px;
+        margin-bottom: 65px;
+        text-align: center;
+    }
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 50px;
+    margin-bottom: 70px;
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #F6F6F6;
+        border-radius: 10px;
+        padding: 20px;
+        gap: 11px;
+        
+        .img{
+
+            img{
+                max-width: 334px;
+                height: 337px;
+            }
+        }
+
+        .card_text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: 8px;
+
+            h3{
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+            }
+
+            p{
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+            del{
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                color: #8B8E99;
+            }
+        }
+        
+    }
+}

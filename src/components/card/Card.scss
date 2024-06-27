@@ -1,0 +1,31 @@
+.cards{
+    margin: 73px 0 135px 0;
+    display: flex;
+    gap: 20px;
+
+    .card{
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        background-color: #F6F6F6;
+        border-radius: 22px;
+        padding: 45px;
+
+        h2{
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 43px;
+            margin-bottom: 10px;
+        }
+
+        p{
+            font-family: 'Inter';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #8B8E99;
+        }
+    }
+    
+}
